@@ -40,22 +40,22 @@
                 android:id="@+id/txt_dk"
                 android:layout_width="wrap_content"
 
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
 
                 android:layout_alignStart="@+id/img_dk"
+                android:layout_alignLeft="@+id/img_dk"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="182dp"
-                android:layout_marginTop="45dp"
-                android:layout_marginEnd="125dp"
-                android:layout_marginBottom="58dp"
-                android:text="Drinks
-                android:textSize="
-                android:layout_alignLeft="@+id/img_dk"
-                android:layout_alignParentRight="true"
                 android:layout_marginLeft="182dp"
-                android:layout_marginRight="125dp" />20dp" />
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="106dp"
+                android:layout_marginRight="106dp"
+                android:layout_marginBottom="45dp"
+                android:text="Drinks
+                android:textSize=" />20dp" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
