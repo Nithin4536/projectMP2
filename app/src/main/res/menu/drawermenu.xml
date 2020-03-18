@@ -3,19 +3,19 @@
     <group android:checkableBehavior="single">
 
         <item android:id="@+id/first"
-            android:title="Home"/>
+            android:title="All Drinks"/>
 
         <item android:id="@+id/second"
-            android:title="Second Fragment"/>
+            android:title="How to mix"/>
 
         <item android:id="@+id/third"
-            android:title="Third Fragment"/>
+            android:title="Ingredients"/>
 
         <item android:id="@+id/fourth"
-            android:title="Fourth Fragment"/>
+            android:title="Measures"/>
 
         <item android:id="@+id/fifth"
-            android:title=" Fragment"/>
+            android:title=" Category and ID"/>
 
 
     </group>
