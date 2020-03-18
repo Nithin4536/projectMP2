@@ -84,6 +84,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(getApplicationContext(), "Fourth clicked!", Toast.LENGTH_LONG).show();
                 navController.navigate(R.id.fourthFragment);
                 break;
+            case R.id.fifth:
+                Toast.makeText(getApplicationContext(), "Fifth clicked!", Toast.LENGTH_LONG).show();
+                navController.navigate(R.id.fifthFragment);
+                break;
         }
 
         return false;
