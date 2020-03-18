@@ -14,8 +14,11 @@ public interface dataservice {
     @GET("search.php?f=a&apiKey=1")
     Call<drink> getDrinksByFL();
 
-    @GET("search.php?i=vodka&apiKey=1")
+    @GET("search.php?f=a&apiKey=1")
     Call<drink> getDrinkIng();
+
+    @GET("search.php?f=a&apiKey=1")
+    Call<drink> getDrinkMeasure();
 
 
 }
