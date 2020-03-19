@@ -46,7 +46,7 @@ this.context=context;
 
     @Override
     public int getItemCount() {
-        return 0;
+        return arrydri.size() ;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
